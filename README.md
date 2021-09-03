@@ -2,9 +2,9 @@
 
 This is the test cases for book Algorithm DPV.
 
-File `6-1.txt` means problem `6.1`.
+File `6-1.json` means problem `6.1`.
 
-Each line is a test case. splitted by space, the last element is the result for this test case, all other elements are the function arguments.
+Feel free to add test cases to the existing problems, or add new problems as well.
 
 Any contribution is welcome.
 
