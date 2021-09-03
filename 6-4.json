@@ -1,0 +1,35 @@
+{
+  "problems": {
+    "title": "6.4 Is valid word"
+  },
+  "tests": [
+    {
+      "args": {
+        "str": "a",
+        "dic": ["a"]
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "str": "a",
+        "dic": ["b"]
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "str": "helloworld",
+        "dic": ["hello", "world"]
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "str": "helloworld",
+        "dic": ["hello", "worl"]
+      },
+      "expected": false
+    }
+  ]
+}

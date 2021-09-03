@@ -1,0 +1,77 @@
+{
+  "problems": {
+    "title": "6.17 Make change I"
+  },
+  "tests": [
+    {
+      "args": {
+        "coins": [5, 10],
+        "target": 12
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "coins": [5, 10],
+        "target": 15
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "coins": [1, 2, 3],
+        "target": 1
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "coins": [1, 2, 3],
+        "target": 2
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "coins": [1, 2, 3],
+        "target": 3
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "coins": [1, 2, 3],
+        "target": 4
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "coins": [1, 2, 3],
+        "target": 7
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "coins": [1, 2, 3],
+        "target": 1001
+      },
+      "expected": true
+    },
+    {
+      "args": {
+        "coins": [2],
+        "target": 1001
+      },
+      "expected": false
+    },
+    {
+      "args": {
+        "coins": [2, 3],
+        "target": 1001
+      },
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "problems": {
+    "title": "6.2 Hotel to stop"
+  },
+  "tests": [
+    {
+      "args": {
+        "arr": [200]
+      },
+      "expected": [200]
+    },
+    {
+      "args": {
+        "arr": [10, 20, 30, 200]
+      },
+      "expected": [200]
+    },
+    {
+      "args": {
+        "arr": [200, 300, 400]
+      },
+      "expected": [200, 400]
+    }
+  ]
+}

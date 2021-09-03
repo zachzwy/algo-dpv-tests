@@ -1,0 +1,43 @@
+{
+  "problems": {
+    "title": "6.1 Maximum contiguous subsequence sum"
+  },
+  "tests": [
+    {
+      "args": {
+        "arr": [5, 15, -30, 10, -5, 40, 10]
+      },
+      "expected": 55
+    },
+    {
+      "args": {
+        "arr": [1]
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "arr": [1, 2]
+      },
+      "expected": 3
+    },
+    {
+      "args": {
+        "arr": [-1, 1]
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "arr": [-1, 0]
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "arr": [-1, -2]
+      },
+      "expected": -1
+    }
+  ]
+}

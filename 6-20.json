@@ -1,0 +1,37 @@
+{
+  "problems": {
+    "title": "6.20 Optimal binary search trees"
+  },
+  "tests": [
+    {
+      "args": {
+        "freq": [1]
+      },
+      "expected": 1
+    },
+    {
+      "args": {
+        "freq": [1, 2]
+      },
+      "expected": 4
+    },
+    {
+      "args": {
+        "freq": [5, 40, 8, 4, 10, 10, 23]
+      },
+      "expected": 218
+    },
+    {
+      "args": {
+        "freq": [34, 50]
+      },
+      "expected": 118
+    },
+    {
+      "args": {
+        "freq": [34, 8, 50]
+      },
+      "expected": 142
+    }
+  ]
+}

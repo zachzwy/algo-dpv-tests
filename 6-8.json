@@ -1,0 +1,42 @@
+{
+  "problems": {
+    "title": "6.8 Longest common substring"
+  },
+  "tests": [
+    {
+      "args": {
+        "str1": "x",
+        "str2": "y"
+      },
+      "expected": 0
+    },
+    {
+      "args": {
+        "str1": "abcdxyz",
+        "str2": "xyzabcd"
+      },
+      "expected": 4
+    },
+    {
+      "args": {
+        "str1": "zxabcdezy",
+        "str2": "yzabcdezx"
+      },
+      "expected": 6
+    },
+    {
+      "args": {
+        "str1": "zitgzsywqkwssydbvakshdxqdzbyyytyljxjsyirjqbbixssldhwmitzkugmrrjjgosvgevusllmijkwwviesicmrjantcvqznwpvmhgqmdovknvxwydgmdcnkvwinvsnwqbilbddnknaqaicdzmyclyrxbhtppmszizfbqbkolgrbetokwevniximpyfbryyijbjvozacegimiomzjcnbfzngebimkyikeqlmbggpehbimlhiyrxyhuarswenbkooddrsedsfjqeciktxelxssmzlwtuzlzawzxnleucbrnutcxmyfgisyookzlsgnghxvfxhbyhqilxqzbaosfpbgkwjldafxjfkowmatvopyvfoldljxuxkultxkqrpqsnrmlevqowydecnjzzhmlrsrdpqispvehjtgfmyalykraqjjhccdcrirnitynnwrbaykoelguwmstabshtbszcgwhvtxfmdwssrrhmpmfnahqhmbypuzbchilmccsckshdtjwjsnbgpdlpvtvnndpmcequfeiedhsjyioqawzvgknrsqgzzbtxdnxevbhtpzzvfcvgnblzqrlljejhwuwbybwctanpxpxksajgjjqzjeuvyqluzptoiepzbubjtarqsuwlbgtbsovioexfulbuncthoteopupjnnkljjogxlxhewrylvxrwiexykdoqfmgndihusvksgzqnxgcvutixvl",
+        "str2": "osglamckkjalwtfwnotifbamcubdvwfdeokghwdniivbsinouchsjfsgrbbqwkyctnbdidbnwsabneoxyzbwmozjpzhqqfghcrgfeippixymbzxdgpxjvfibhckubibhgvnpdjkhobrwlmlgbpqvlvxpfangjcibfmkqasuejspgybsiidzuxjkmqakpjhabisrnigwrehyfiwosmrjwlbmuplnwxxybsokmmddyscvxocdx"
+      },
+      "expected": 3
+    },
+    {
+      "args": {
+        "str1": "rmlnslftjkcoirgvhdsxqgirslxoysgexlmtlbtkjlqcytwjbecocbrfdeovuzazysiipslawagvxoaozzhatkofsyktkgqalyqdgkpokkswekeytlhcawkzlbhuklzmsehaonrignjrmvirbmznambqpjlfxupsuzpwnwdgdxenmunjdmkjtjliauprlgmgxjgubsipmksojtgcwrfxwsxqfwpdcypdmeigpnwkwbgnjvkiiujhpquwtenkqzlwlofttacikxrgooosegwglcxedrdsomtodopcsgffxjcmykxnhsxgdytmebxckbhgawhblenasqknbnvuwgniutjydsktkuqnnxhbmghbmlrdwhdjmdhintddrxudxekzrtdrxzglpjmxplifuwtkfpswrnivtoijpxuttapesrgremunzgqzneykpiuxrpyrbqoycyyqslpuhflfingrbjdrudwecbbfmjxvrgvsqjagerienkcxoagjszbnvfcyympxxocdwjmxyhtmoknfbklhrqjdqfpfgoqtfyzzyflhqnzwnzcgcuxcpsgpnopofywanqqigdtopaixdpjgzvuxqsetqkhkmevxvgosrjdq",
+        "str2": "nltimwrilwziawgtngjisxazuxrnpzqvrhspjdoxhtqzzjdpcsuuvkpisjgdipxxeywznlebrvtbwkljzhtgakpbskaqzjmdhekyaemgfehjprwvuzrkndydaluqlnkgculdtynfqyvwgnqnisavrickwatlrbmpwqepfsztbtmsvnmymhqjlnuiauegvjmofoivuzpoiqmwqhroeyadpiwrbmakpigroekhmalarflxqhoccbacwacq"
+      },
+      "expected": 4
+    }
+  ]
+}
